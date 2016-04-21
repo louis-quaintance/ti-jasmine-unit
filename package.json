@@ -1,0 +1,22 @@
+{
+  "name": "ti-jasmine-unit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine",
+    "cover": "./node_modules/.bin/istanbul cover jasmine"
+  },
+  "author": "Louis Quaintance <louisandkatherine@sky.com>",
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "jasmine": "^2.4.1",
+    "moment": "^2.13.0",
+    "proxyquire": "^1.7.4",
+    "timekeeper": "0.0.5",
+    "underscore": "^1.8.3"
+  }
+}
